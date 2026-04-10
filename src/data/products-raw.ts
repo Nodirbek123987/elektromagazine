@@ -10,15 +10,6 @@ const products = [
       "https://avatars.mds.yandex.net/get-mpic/1886132/img_id3156248137974851841.jpeg/orig",
   },
   {
-    id: 2,
-    name: "кнопка",
-    price: 14000,
-    unit: "шт",
-    category: "Кабельные наконечники",
-    brand: "Другое",
-    image: "https://images.uzum.uz/co4durn2u18gghcmdje0/original.jpg",
-  },
-  {
     id: 8,
     name: "на DIN",
     price: 8400,
@@ -649,16 +640,6 @@ const products = [
       "https://e2s-rus.ru/image/cache/catalog/Obshhepromyshlennye-zvukovye-signalizatory/6/917737746-svetovoj-i-zvukovoj-signalizator-s-ustanovkoj-na-panel-e2s22dbf230v-1200x800.png",
   },
   {
-    id: 114,
-    name: "Реле времени A-A,B,C,D,F",
-    price: 49000,
-    unit: "шт",
-    category: "Низковольтная продукция",
-    brand: "Другое",
-    image:
-      "https://s.alicdn.com/@sc04/kf/H49896a6970884a279b0d84d692b83f3es.jpg",
-  },
-  {
     id: 115,
     name: "Реле времени H3Y 5s,10s, 30s,60s",
     price: 39000,
@@ -667,15 +648,6 @@ const products = [
     brand: "Другое",
     image:
       "https://sensoren.ru/upload/iblock/2e0/2e0456116649491f9bfc320df4cf63dc.png",
-  },
-  {
-    id: 116,
-    name: "Реле промежуточный .5А",
-    price: 25000,
-    unit: "шт",
-    category: "Низковольтная продукция",
-    brand: "Другое",
-    image: "https://essonline.uz/uploads/pages/1732511802rasm_bir.jpg",
   },
   {
     id: 117,
@@ -1157,17 +1129,8 @@ const products = [
       "https://techelectro.ru/images/cms/thumbs/5fe32261c868cd4fd1a83936dfb86117c738c491/2pktp-1_490_auto_jpg.jpg",
   },
   {
-    id: 209,
-    name: "Трубки клеевые(3:1) 7,9 (1 м)",
-    price: 11000,
-    unit: "шт",
-    category: "Термоусадка и изоляция",
-    brand: "Другое",
-    image: "https://kvt.su/images/newprod/hstube/ttk3_1.jpg",
-  },
-  {
     id: 210,
-    name: "Трубки клеевые(3:1) 9,5, 12,7 , 15,0 , 19,1 , 25,4 (1,20м)",
+    name: "Трубки клеевые(3:1) 3,2 , 4,8 , 6,4 , 7,9 , 9,5, 12,7 , 15,0 , 19,1 , 25,4 ,30 , 40 , 50(1,20м)",
     price: 13000,
     unit: "шт",
     category: "Термоусадка и изоляция",
@@ -1182,7 +1145,7 @@ const products = [
     category: "Термоусадка и изоляция",
     brand: "Другое",
     image:
-      "https://dc-electro.ru/upload/iblock/0b5/mvw3lbgo4owenfi0wpi3hayhoq7d8r71.jpg",
+      "https://nevel.uz/upload/products/2024/06/10/2024-06-10-14-42-36-498116-73b765405170e2c717a3545f2cb0e9ac.jpg?_=ozbol",
   },
   {
     id: 217,
@@ -1192,17 +1155,7 @@ const products = [
     category: "Термоусадка и изоляция",
     brand: "Другое",
     image:
-      "https://nevel.uz/upload/products/2024/06/10/2024-06-10-14-42-36-498116-73b765405170e2c717a3545f2cb0e9ac.jpg?_=ozbol",
-  },
-  {
-    id: 218,
-    name: "Стеклолента термостойкий",
-    price: 12000,
-    unit: "рул",
-    category: "Кабельные наконечники",
-    brand: "Другое",
-    image:
-      "https://lipkaya-lenta.ru/components/com_jshopping/files/img_products/full_gts118.jpg",
+      "https://dc-electro.ru/upload/iblock/0b5/mvw3lbgo4owenfi0wpi3hayhoq7d8r71.jpg",
   },
   {
     id: 219,
@@ -1252,16 +1205,6 @@ const products = [
     category: "Измерительные приборы",
     brand: "UNI-T",
     image: "https://stab.uz/images/products/wr9yl2c5srvoseb8qe4t.jpg",
-  },
-  {
-    id: 224,
-    name: "Индикаторы напряжения UT15C",
-    price: 400000,
-    unit: "шт",
-    category: "Измерительные приборы",
-    brand: "UNI-T",
-    image:
-      "https://nevel.uz/upload/products/2024/09/12/2024-09-12-11-54-05-525436-2129fbc5b6a21ef35c269902ebd27867.jpg?_=ozbol",
   },
   {
     id: 225,
@@ -1361,16 +1304,6 @@ const products = [
     brand: "UNI-T",
     image:
       "https://nevel.uz/upload/products/2024/09/12/2024-09-12-13-07-29-010756-25acb5b2210957c03aa18421071072cd.jpg?_=ozbol",
-  },
-  {
-    id: 235,
-    name: "Мультиметр UT51",
-    price: 252000,
-    unit: "шт",
-    category: "Измерительные приборы",
-    brand: "UNI-T",
-    image:
-      "https://nevel.uz/upload/products/2024/09/12/2024-09-12-13-17-38-107080-3292f67cfac82d165eab8af36efbfd9a.jpg?_=ozbol",
   },
   {
     id: 236,
@@ -3054,7 +2987,7 @@ const products = [
   },
   {
     id: 405,
-    name: "Цифровой угломер LM320B",
+    name: "Цифровой угломер LM320A",
     price: 430000,
     unit: "шт",
     category: "Измерительные приборы",
@@ -3517,16 +3450,6 @@ const products = [
     brand: "Другое",
     image:
       "https://i5.walmartimages.com/seo/DC-35-Manual-DIN-Rail-Cutter-Double-Slot-Dual-Groove-Manual-Rail-Cutting-Machine-Heavy-Duty-Rail-Cutter-Tool-Measuring-Ruler-Multi-Use-Guide-Cutting_f30b332c-b2ce-4656-8a1a-798632b86057.82fa0c8a66c64c6895190f5a0c826746.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-  },
-  {
-    id: 454,
-    name: "Ножницы для кабелей JLD-125",
-    price: 140000,
-    unit: "шт",
-    category: "Инструменты",
-    brand: "Другое",
-    image:
-      "https://image.made-in-china.com/155f0j00mBgTYAnEAMkI/Jld-125-Cable-Wire-Cutter.webp",
   },
   {
     id: 455,

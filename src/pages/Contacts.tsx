@@ -155,13 +155,13 @@ const ContactsPage = () => {
               <div className="rounded-xl overflow-hidden border aspect-[4/3]">
                 <iframe
                   title="Elektro Market location"
-                  src="https://www.openstreetmap.org/export/embed.html?bbox=69.24402836570548%2C41.35399340400994%2C69.25002836570548%2C41.35799340400994&layer=mapnik&marker=41.35599340400994%2C69.24702836570548"
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=69.24402836570548%2C41.35399340400994%2C69.25002836570548%2C41.35799340400994&layer=mapnik&marker=41.35552494457379,%2069.25041753621255"
                   className="w-full h-full border-0"
                   loading="lazy"
                 />
               </div>
               <a
-                href={`https://www.openstreetmap.org/?mlat=41.35599340400994&mlon=69.24702836570548#map=17/41.35599/69.24703`}
+                href={`https://www.openstreetmap.org/?mlat=41.35599340400994&mlon=69.24702836570548#map=17/41.35552494457379/69.25041753621255`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 mt-3 text-sm text-primary font-medium hover:underline underline-offset-4"
