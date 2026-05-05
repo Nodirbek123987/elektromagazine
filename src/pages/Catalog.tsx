@@ -316,14 +316,34 @@ const CatalogPage = () => {
       <TopBar />
       <Navbar />
       <main className="flex-1">
-        <div className="bg-section-alt border-b">
-          <div className="container py-6 sm:py-10">
-            <h1 className="text-2xl sm:text-3xl font-bold tracking-tight mb-1 sm:mb-2">{t("catalog.title")}</h1>
-            <p className="text-muted-foreground text-xs sm:text-sm">
-              {filtered.length} {t("catalog.items")}
-            </p>
-          </div>
-        </div>
+      <div className="bg-section-alt border-b">
+  <div className="container py-6 sm:py-10">
+    
+    <h1 className="text-2xl sm:text-3xl font-bold tracking-tight mb-1 sm:mb-2">
+      {t("catalog.title")}
+    </h1>
+
+    <p className="text-muted-foreground text-xs sm:text-sm">
+      {filtered.length} {t("catalog.items")}
+    </p>
+
+    {/* 🔥 ВСТАВЛЯЕШЬ ВОТ ЭТО */}
+    <div className="mt-4 p-4 rounded-xl border border-dashed bg-gray-50 text-center">
+      <p className="text-sm text-gray-600 mb-2">
+        Не нашли нужный товар?
+      </p>
+
+      <a
+        href="/price-list-2026.pdf"
+        download
+        className="inline-block px-5 py-2 bg-yellow-400 hover:bg-yellow-500 text-black font-semibold rounded-lg transition"
+      >
+        📥 Скачать полный каталог
+      </a>
+    </div>
+
+  </div>
+</div>
 
         <div className="container py-4 sm:py-8">
           {/* Mobile filter toggle */}
